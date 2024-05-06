@@ -1,0 +1,20 @@
+@use 'scss-reset/reset';
+
+* a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.krona {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background: #181A20;
+    color: #f3f3f3;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
