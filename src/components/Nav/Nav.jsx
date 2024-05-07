@@ -2,7 +2,8 @@ import React from 'react'
 
 import './Nav.scss'
 
-export const Nav = () => {
+export const Nav = ({navS}) => {
+  
   let navLinks = [
     {
       text: "Home",
@@ -27,7 +28,7 @@ export const Nav = () => {
     
   ];
   return (
-    <nav className="nav">
+    <nav className={`nav ${navS ? 'active' : ''}`}>
       <ul className="nav_list">
         {navLinks.map((link, index) => (
           <li className="nav_list-item" key={index}>
