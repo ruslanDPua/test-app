@@ -20,9 +20,12 @@
 }
 
 @media (max-width: 768px) {
-  .nav{
+  .header{
+    .nav{
     transition: opacity .3s, filter .5s, transform .3s;
     position: absolute;
+    
+    background: #181a20e3;
     margin: 0 auto;
     margin-top: 10px;
     border-bottom-left-radius: 10px;
@@ -49,4 +52,6 @@
     transform: scaleY(1);
     filter: blur(0);
   }
+  }
+  
 }

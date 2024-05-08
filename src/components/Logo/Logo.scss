@@ -11,9 +11,12 @@
 }
 
 @media (max-width: 550px) {
-  .logo{
+  .header{
+    .logo{
    &_text{
     display: none;
    }
   }
+  }
+  
 }

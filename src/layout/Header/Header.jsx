@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Select from 'react-select'
 import './header.scss'
 import {Logo} from '../../components/Logo/Logo'
@@ -21,26 +21,40 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <Logo />
-      <button className='header_toggle' onClick={toggleNav}>X</button>
-      <Nav navS = {navS}/>
-      <div className="header_profile">
-        <div className="header_profile-btns">
-          <a className="header_profile-btn pricing" href="./">
-            Pricing
-          </a>
-          <a className="header_profile-btn login" href="./">
-            Log In
-          </a>
+      <div className="container">
+        <Logo />
+        <label htmlFor="header_toggle-input" className="header_toggle">
+          <input
+            type="checkbox"
+            className="header_toggle-input"
+            checked={navS}
+            onChange={toggleNav}
+            id="header_toggle-input"
+          />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <Nav navS={navS} />
+        <div className="header_profile">
+          <div className="header_profile-btns">
+            <a className="header_profile-btn pricing" href="./">
+              Pricing
+            </a>
+            <a className="header_profile-btn login" href="./">
+              Log In
+            </a>
+          </div>
+          <span></span>
+          <Select
+            options={options}
+            defaultValue={options[3]}
+            isSearchable={false}
+            className="header_profile-select"
+            classNamePrefix="header_profile-select"
+          />
         </div>
-        <span></span>
-        <Select
-          options={options}
-          defaultValue={options[3]}
-          isSearchable={false}
-          className="header_profile-select"
-          classNamePrefix='header_profile-select'
-        />
       </div>
     </header>
   );
