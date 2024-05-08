@@ -1,0 +1,22 @@
+.logo{
+    display: flex;
+    min-width: max-content;
+    margin-right: 5px;
+    &_text{
+        margin-left: 8px;
+        line-height: 1.4em;
+        font-size: 18px;
+        letter-spacing: -0.06em;
+    }
+}
+
+@media (max-width: 550px) {
+  .header{
+    .logo{
+   &_text{
+    display: none;
+   }
+  }
+  }
+  
+}
