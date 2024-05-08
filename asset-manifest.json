@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/test-app/static/css/main.08efcf39.css",
-    "main.js": "/test-app/static/js/main.e9aa8067.js",
+    "main.css": "/test-app/static/css/main.54ca42a9.css",
+    "main.js": "/test-app/static/js/main.9cf4bb36.js",
+    "static/media/instagram.svg": "/test-app/static/media/instagram.7b177e06551748909092c98d51a09f03.svg",
+    "static/media/twitter.svg": "/test-app/static/media/twitter.826a4ab371e4f55551217fbf1e0d95a1.svg",
+    "static/media/facebook.svg": "/test-app/static/media/facebook.bb9c0f37d29af80c812599aee936447e.svg",
+    "static/media/linked-in.svg": "/test-app/static/media/linked-in.1f871555b9796dcbf96b423345d39906.svg",
     "static/media/logo.svg": "/test-app/static/media/logo.b520adcb52225b69f845d31e4ab46b08.svg",
     "index.html": "/test-app/index.html",
-    "main.08efcf39.css.map": "/test-app/static/css/main.08efcf39.css.map",
-    "main.e9aa8067.js.map": "/test-app/static/js/main.e9aa8067.js.map"
+    "main.54ca42a9.css.map": "/test-app/static/css/main.54ca42a9.css.map",
+    "main.9cf4bb36.js.map": "/test-app/static/js/main.9cf4bb36.js.map"
   },
   "entrypoints": [
-    "static/css/main.08efcf39.css",
-    "static/js/main.e9aa8067.js"
+    "static/css/main.54ca42a9.css",
+    "static/js/main.9cf4bb36.js"
   ]
 }
